@@ -81,7 +81,7 @@ THEME = "themes/Flex-2.4.0"
 DISQUS_SITENAME = "flex-pelican"
 ADD_THIS_ID = "ra-55adbb025d4f7e55"
 
-STATIC_PATHS = ["images"]
+STATIC_PATHS = ["images", "assets"]
 
 
 PLUGIN_PATHS = ["plugins"]
