@@ -1,0 +1,515 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{article}
+\usepackage{fontspec}
+\usepackage{hyperref}
+
+% DOCUMENT LAYOUT
+\usepackage[margin=1.2in]{geometry} 
+\setlength\parindent{0in}
+
+% fix for pandoc 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Reduce spacing in itemize, enumerate and titles
+\usepackage{multicol}
+\usepackage{enumitem}
+\setenumerate{nolistsep}
+\setitemize{nolistsep}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (quotes'' --- dashes etc.) to unicode
+% \setromanfont[Ligatures={Common}, Numbers={OldStyle}]{Palatino}
+% \setmonofont[Scale=1.0]{Monaco} 
+% \setsansfont[Scale=1.0]{Optima Regular} 
+
+% HEADINGS and TITLES
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\sffamily\mdseries\large\underline} % Underlines headings
+\setcounter{secnumdepth}{-1} % Removes the numbers before sections
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+\usepackage{titling}
+\setlength{\droptitle}{-90pt} % The negative number moves the title closer to the top of the page
+\title{Curriculum Vitae} % name Curriculum Vitae
+\date{13 September 2018\\} % Leave blank to remove the date
+\author{Henrik Nicolay Topnes Finsberg\\\\
+  http://henrikfinsberg.com\\\\
+Jongsbruveien 27B \textbar{} Sandvika, 1338\\ %Put your address here
++47 911 868 43 \textbar{} henriknf@simula.no } % put your contact information here
+
+% BEGIN DOCUMENT
+\begin{document}
+\maketitle
+\begin{raggedright}
+\href{latex/cv.pdf}{PDF}
+
+\hypertarget{personal-summary}{%
+\subsubsection{Personal summary}\label{personal-summary}}
+
+\begin{quote}
+In October 2017 I started as a Research Engineer at Simula Research
+Laboratory in the department for Scientific Computing, and will work
+with development of computational modeling tools primarily with
+application in electrophysiology.
+\end{quote}
+
+\begin{quote}
+Before I started as a Research Engineer I was a PhD student in the
+Cardiac Modelling group in the department for Scientific Computing, also
+at Simula Research Laboratory. In my PhD I worked with patient specific
+models of the cardiac mechanics, and defended it at January 17th 2018.
+\end{quote}
+
+\begin{quote}
+I graduated in 2014 after finishing a joint master degree in Applied and
+Engineering Mathematics at NTNU in Trondheim and DTU in Copenhagen. My
+fields of interests are mathematical modelling, geometric modelling and
+image processing. In my master thesis I studied methods for image
+classification of ultrasound images based on convolutional neural
+networks.
+\end{quote}
+
+\hypertarget{education}{%
+\subsubsection{Education}\label{education}}
+
+\begin{itemize}
+\tightlist
+\item
+  2014 - 2017: PhD Scientific Computing, Simula Research Laboratory and
+  University of Oslo, Oslo (Norway)
+\end{itemize}
+
+\begin{quote}
+Title: Patient-specfic computational modeling of cardiac mechanics.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2012 - 2014: MSc. Applied and Engineering Mathematics, Nordic Master
+  in Applied and engineering mathematics(N5TeAM), Trondheim (Norway),
+  Copenhagen (Denmark)
+\end{itemize}
+
+\begin{quote}
+Joint master program with first year at DTU in Copenhagen, and second
+year at NTNU in Trondheimm. Degree from NTNU Trondheim: Master of
+Science in Applied and Engineering Mathematics. Degree DTU Copenhagen:
+Master of Science in Engineering. Master thesis title: Wavelet
+Techniques in Medical Imaging. Final Grade A (Best: A Average: A Worst:
+C)
+\end{quote}
+
+\begin{quote}
+\href{/assets/cv/transcripts_NTNU.pdf}{Transcript NTNU}
+\end{quote}
+
+\begin{quote}
+\href{/assets/cv/transcripts_DTU.pdf}{Transcript DTU}
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2010 -- 2012 MSc. Physics and Mathematics, NTNU, Trondheim (Norway).
+\end{itemize}
+
+\begin{quote}
+Specialized in industrial mathematics. Switched to
+\href{http://n5team.aalto.fi/en/}{N5TeAM} after finishing first year at
+industrial mathematics.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2006 -- 2008: Sergeant, Army Officer Candidate School, Skjold
+  (Norway).
+\end{itemize}
+
+\begin{quote}
+Two-year officer school in the engineering battalion. Final Grade C
+(Best: A Average: B Worst: C)
+\end{quote}
+
+\hypertarget{technical}{%
+\subsubsection{Technical}\label{technical}}
+
+\begin{itemize}
+\tightlist
+\item
+  Expert: \href{https://www.python.org}{Python},
+  \href{https://en.wikipedia.org/wiki/Unix}{Unix},
+  \href{https://www.latex-project.org}{LaTeX},
+  \href{https://fenicsproject.org}{FEniCS},
+  \href{https://en.wikipedia.org/wiki/Linux}{Linux},
+\item
+  Intermediate: \href{https://www.docker.com}{Docker}
+  \href{https://en.wikipedia.org/wiki/HTML}{HTML},
+  \href{https://en.wikipedia.org/wiki/Bash_(Unix_shell)}{Bash},
+  \href{https://se.mathworks.com/products/matlab.html}{Matlab},
+  \href{https://git-scm.com}{Git}, \href{http://jupyter.org}{Jupyter},
+  \href{https://www.vtk.org}{VTK}, \href{http://gmsh.info}{Gmsh},
+  \href{https://www.paraview.org}{Paraview}
+\item
+  Basic:
+  \href{https://en.wikipedia.org/wiki/Cascading_Style_Sheets}{CSS},
+  \href{https://en.wikipedia.org/wiki/JavaScript}{JavaScript},
+  \href{https://en.wikipedia.org/wiki/C\%2B\%2B}{C++},
+  \href{https://en.wikipedia.org/wiki/C_(programming_language)}{C},
+  \href{https://en.wikipedia.org/wiki/C_Sharp_(programming_language)}{C\#},
+  \href{https://kubernetes.io}{Kubernetes},
+  \href{https://www.r-project.org/about.html}{R},
+  \href{http://www.swig.org}{Swig}
+\end{itemize}
+
+\hypertarget{employment}{%
+\subsubsection{Employment}\label{employment}}
+
+\begin{itemize}
+\tightlist
+\item
+  2017-present: Research Engineer, \href{https://www.simula.no}{Simula
+  Research Laboratory}
+\end{itemize}
+
+\begin{quote}
+Development of high performace copmuitational software tools and
+mathematical models for the study of Human Induced Pluripotent Stem
+Cells (hiPSC)
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2016: Corrector, University of Oslo
+\end{itemize}
+
+\begin{quote}
+Correcting assignments for master students in the course {[}INF4331,
+Problem solving with high level languanges{]}
+(https://www.uio.no/studier/emner/matnat/ifi/INF4331/index-eng.html)
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2009 -- 2013 Teaching Assistant, Norwegian University of Science and
+  Technology, Trondheim.
+\end{itemize}
+
+\begin{quote}
+Assisted groups of 25 students in Calculus 1, Calculus 2, Calculus 3,
+Statistics and Information Technology.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2012 -- 2012 Summer Intern, \href{https://www.silabs.com}{Energy
+  Micro}, Oslo, Norway.
+\end{itemize}
+
+\begin{quote}
+Porting the Energy Micro University program to Giant Gecko Starter Kit.
+Improving code and embedded documentation as well as look and usability
+of the doxygen generated documentation for all kits.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2011 -- 2012 Mentor, \href{https://www.ent3r.no}{ENT3R} NTNU,
+  Trondheim.
+\end{itemize}
+
+\begin{quote}
+Responsibility for a class of 20 students from high school. Help
+students with mathematics, and motivate them for further education in
+science.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2011 -- 2011 Summer Intern, \href{https://www.ffi.no}{Norwegian
+  Defence Research Establishment (FFI)}, Kjeller.
+\end{itemize}
+
+\begin{quote}
+Created a GUI in Visual C\# and Matlab to read the log files, and use
+this information to calculate and plot the desired data.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2007 - 2008: Squad leader, Engineering Batalion, Norwegian Army
+\end{itemize}
+
+\begin{quote}
+Responsibilities: Educate soldiers with background in construction, and
+lead small construction projects.
+\end{quote}
+
+\hypertarget{activities}{%
+\subsubsection{Activities}\label{activities}}
+
+\begin{itemize}
+\tightlist
+\item
+  2015-2016 Member of Excepert Committee, Nokut, Oslo.
+\end{itemize}
+
+\begin{quote}
+Responsible for evaluating an application for accreditation of a PhD
+program at Bergen university college together with three other experts.
+\href{https://www.nokut.no/contentassets/8709159cefe84f72b68ea2f251f6130a/computer_science_software_engineering_sensor_networks_and_engineering_computing_phd_hib_2016.pdf}{Report}
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2011-2012 Business Manager, ENT3R NTNU, Trondheim.
+\end{itemize}
+
+\begin{quote}
+Responsible for organizing student events and invite companies to these
+events.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2011-2012 Chairman for the Business Committee, Nabla - Applied Physics
+  and Mathematics student association , Trondheim.
+\end{itemize}
+
+\begin{quote}
+Overall responsibility for hosting business presentations, publishing
+catalogue with summer jobs, and connect students to the industry.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  2011-2012 Member of the Business Committee, Nabla - Applied Physics
+  and Mathematics student association , Trondheim.
+\end{itemize}
+
+\begin{quote}
+Responsible for contacting 20 companies and arrange business
+presentations.
+\end{quote}
+
+\hypertarget{scholarships-and-awards}{%
+\subsubsection{Scholarships and Awards}\label{scholarships-and-awards}}
+
+\begin{itemize}
+\tightlist
+\item
+  Abel Scholarship 2012
+\end{itemize}
+
+\begin{quote}
+Given to mathematics students that exchange abroad.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Fullbright Scholarship
+\end{itemize}
+
+\begin{quote}
+My initial plan was to exchange to US and therefore I also applied for
+the Fullbright scholarship. I was awarded this scholarship but had to
+decline when I decided that I wanted to go to Denmark instead.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Norplus scholarship
+\end{itemize}
+
+\begin{quote}
+Given to exchange students in the nordic countries.
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Erasmus scholarship
+\end{itemize}
+
+\begin{quote}
+Given to exchange students in Europe.
+\end{quote}
+
+\hypertarget{thesis}{%
+\subsubsection{Thesis}\label{thesis}}
+
+\begin{itemize}
+\item
+  Finsberg, H.N., 2017. Patient-Specific Computational Modeling of
+  Cardiac Mechanics. Series of dissertations submitted to the Faculty of
+  Mathematics and Natural Sciences, University of Oslo.
+  \href{https://www.duo.uio.no/bitstream/handle/10852/62015/PhD-Finsberg-2018.pdf}{PDF}
+\item
+  Finsberg, H.N., 2014. Wavelet Techniques in Medical Imaging:
+  Classification of UltraSound Images using the Windowed Scattering
+  Transform (Master's thesis, Institutt for matematiske fag).
+  \href{https://brage.bibsys.no/xmlui/bitstream/handle/11250/259333/733307_FULLTEXT01.pdf}{PDF}
+\end{itemize}
+
+\hypertarget{publications}{%
+\subsubsection{Publications}\label{publications}}
+
+\begin{itemize}
+\item
+  Balaban, G., Finsberg, H., Funke, S., Håland, T.F., Hopp, E., Sundnes,
+  J., Wall, S. and Rognes, M.E., 2018. In vivo estimation of elastic
+  heterogeneity in an infarcted human heart. Biomechanics and modeling
+  in mechanobiology, pp.1-13.
+  \href{https://doi.org/10.1007/s10237-018-1028-5}{DOI}
+  \href{https://link.springer.com/content/pdf/10.1007\%2Fs10237-018-1028-5.pdf}{PDF}
+\item
+  Finsberg, H., Xi, C., Tan, J.L., Zhong, L., Genet, M., Sundnes, J.,
+  Lee, L.C. and Wall, S.T., 2018. Efficient estimation of personalized
+  biventricular mechanical function employing gradient‐based
+  optimization. International journal for numerical methods in
+  biomedical engineering, p.e2982.
+  \href{https://doi.org/10.1002/cnm.2982}{DOI}
+  \href{https://onlinelibrary.wiley.com/doi/pdf/10.1002/cnm.2982}{PDF}
+  \href{https://bitbucket.org/finsberg/efficient-estimation-of-personalized-biventricular-mechanical}{CODE}
+\item
+  Finsberg, H., Balaban, G., Ross, S., Håland, T.F., Odland, H.H.,
+  Sundnes, J. and Wall, S., 2018. Estimating cardiac contraction through
+  high resolution data assimilation of a personalized mechanical model.
+  Journal of computational science, 24, pp.85-90.
+  \href{https://doi.org/10.1016/j.jocs.2017.07.013}{DOI}
+  \href{https://www.sciencedirect.com/science/article/pii/S1877750317308190/pdfft?md5=3f7bbc82a870dc84f5080564c7f3c33a\&pid=1-s2.0-S1877750317308190-main.pdf}{PDF}
+  \href{https://bitbucket.org/finsberg/estimate_cardiac_contraction}{CODE}
+\item
+  Balaban, G., Finsberg, H., Odland, H.H., Rognes, M.E., Ross, S.,
+  Sundnes, J. and Wall, S., 2017. High‐resolution data assimilation of
+  cardiac mechanics applied to a dyssynchronous ventricle. International
+  journal for numerical methods in biomedical engineering, 33(11),
+  p.e2863. \href{https://doi.org/10.1002/cnm.2863}{DOI}
+  \href{https://www.duo.uio.no/bitstream/handle/10852/62016/Balaban_et_al-2017-cnm-2863.pdf}{PDF}
+  \href{https://bitbucket.org/finsberg/cardiac_highres_dataassim}{CODE}
+\end{itemize}
+
+\hypertarget{conference-proceedings-and-preprints}{%
+\subsubsection{Conference proceedings and
+preprints}\label{conference-proceedings-and-preprints}}
+
+\begin{itemize}
+\item
+  Finsberg, H., Balaban, G., Rognes, M.E., Sundnes, J. and Wall, S.,
+  Patient-specific computational modeling of cardiac biomechanics via
+  gradient based data assimilation, 8th World Congress of Biomechanics,
+  Dublin, Ireland,
+  \href{https://www.researchgate.net/publication/328733786_Patient-specific_computational_modeling_of_cardiac_biomechanics_via_gradient_based_data_assimilation}{PDF}
+\item
+  Finsberg, H., Aalen, J., Larsen, C. J., Remme E., Sundnes, J. Smiseth
+  O. A, and Wall, S., Assessment of regional myocardial work through
+  adjoint-based data assimilation, International Conference on
+  Computational Science and Engineering, Oslo, Norway
+  \href{https://www.researchgate.net/publication/328733792_Assessment_of_regional_myocardial_work_through_adjoint-based_data_assimilation}{PDF}
+\item
+  Finsberg, H., Xi, C., Tan, J.L., Zhong, L., Sundnes, J., Lee, L.C. and
+  Wall, S.T.,, Mechanical Analysis of Pulmonary Hypertension via Adjoint
+  based data assimilation of a Finite Element model, SB3C2017 Summer
+  Biomechanics, Bioengineering and Biotransport ConferenceAt: Tucson,
+  AZ, USA
+  \href{https://www.researchgate.net/publication/325301179_MECHANICAL_ANALYSIS_OF_PULMONARY_HYPERTENSION_VIA_ADJOINT_BASED_DATA_ASSIMILATION_OF_A_FINITE_ELEMENT_MODEL}{PDF}
+\item
+  Finsberg, H., Balaban, G., Ross, S., Odland, H.H., Sundnes, J. and
+  Wall, S., Personalized Cardiac Mechanical Model using a High
+  Resolution Contraction Field, Virtual Physiological Human 2016
+  conference, Amsterdam, Netherland
+  \href{https://www.researchgate.net/publication/328733694_Personalized_Cardiac_Mechanical_Model_using_a_High_Resolution_Contraction_Field}{PDF}
+\item
+  Finsberg, H., Balaban, G., Ross, S., Odland, H.H., Sundnes, J. and
+  Wall, S., Personalization of a Cardiac Computational Model using
+  Clinical Measurements, 28th Nordic Seminar on Computational Mechanics,
+  Tallinn, Estonia
+  \href{https://www.researchgate.net/publication/325301428_Personalization_of_a_Cardiac_Computational_Model_using_Clinical_Measurements}{PDF}
+\item
+  Finsberg, H., Luybarskii, Y., Growth of entire functions via Borel
+  transform, TMA4500 Specialization project, 2013
+  \href{http://doi.org/10.13140/RG.2.2.10460.44160}{DOI}
+  \href{https://www.researchgate.net/profile/Henrik_Finsberg/publication/327633791_Growth_of_entire_functions_via_Borel_transform/links/5b9ab94145851574f7c5a499/Growth-of-entire-functions-via-Borel-transform.pdf}{PDF}
+\end{itemize}
+
+\hypertarget{posters}{%
+\subsubsection{Posters}\label{posters}}
+
+\begin{itemize}
+\item
+  Geilo Winter School: Scientific Visualization, 2016
+  \href{/assets/posters/geilo_winter_school_2016.pdf}{PDF}
+\item
+  Summer Biomechanics, Bioengineering, and Biotransport Conference
+  (SB3C), Tucson, AZ 2017 \href{/assets/posters/sb3c_2017.pdf}{PDF}
+\item
+  The Heart by Numbers: Integrating Theory, Computation and Experiment
+  to Advance Cardiology, Berlin 2018
+  \href{/assets/posters/heart_by_numbers_2018.pdf}{PDF}
+\end{itemize}
+
+\hypertarget{phd-defence}{%
+\subsubsection{PhD Defence}\label{phd-defence}}
+
+\begin{itemize}
+\item
+  PhD defence, Patient-Specific Computational Modeling of Cardiac
+  Mechanics 17.01.18, Oslo, Norway \href{/assets/talks/defence.pdf}{PDF}
+\item
+  PhD trial lecture, How do the mechanics and structure of the heart
+  matter in regard to patient-specific cardiac modelling? 17.01.18,
+  Oslo, Norway \href{/assets/talks/trial_lecture.pdf}{PDF}
+\end{itemize}
+
+\hypertarget{conference-talks}{%
+\subsubsection{Conference talks}\label{conference-talks}}
+
+\begin{itemize}
+\item
+  Assessment of regional myocardial work through adjoint-­based data
+  assimilation, International Conference on Computational Science and
+  Engineering 2017, Oslo Norway, \emph{In memory of Hans Petter
+  Langtangen} \href{/assets/talks/CSE251017.pdf}{PDF}
+\item
+  Optimization of a Spatially Varying Cardiac Contraction parameter
+  using the Adjoint Method, FEniCS Conference 2016, Oslo, Norway,
+  \href{/assets/talks/fenics2016.pdf}{PDF}
+\item
+  What are all these models, and do we really need them? - Translating
+  cardiac mechanical modeling into clinical applications, CCI Journal
+  Club, Oslo University Hospital
+  \href{/assets/talks/journal_club270317.pdf}{PDF}
+\item
+  Patient Constrained Ventricular Stress Mapping, MALT Conference,
+  Lugano, Switzerland, 2015, \href{/assets/talks/malt010515.pdf}{PDF}
+\item
+  Personalization of a Cardiac Computational Model using Clinical
+  Measurements, 28th Nordic Seminar on Computational Mechanics, Tallin,
+  Estonia, 2015, \href{/assets/talks/nscm_2015.pdf}{PDF}
+\end{itemize}
+
+\hypertarget{references}{%
+\subsubsection{References}\label{references}}
+
+Available on request.
+\end{raggedright}
+\end{document}

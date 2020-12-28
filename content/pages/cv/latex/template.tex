@@ -1,0 +1,53 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{article}
+\usepackage{fontspec}
+\usepackage{hyperref}
+
+% DOCUMENT LAYOUT
+\usepackage[margin=1.2in]{geometry} 
+\setlength\parindent{0in}
+
+% fix for pandoc 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Reduce spacing in itemize, enumerate and titles
+\usepackage{multicol}
+\usepackage{enumitem}
+\setenumerate{nolistsep}
+\setitemize{nolistsep}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (quotes'' --- dashes etc.) to unicode
+% \setromanfont[Ligatures={Common}, Numbers={OldStyle}]{Palatino}
+% \setmonofont[Scale=1.0]{Monaco} 
+% \setsansfont[Scale=1.0]{Optima Regular} 
+
+% HEADINGS and TITLES
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\sffamily\mdseries\large\underline} % Underlines headings
+\setcounter{secnumdepth}{-1} % Removes the numbers before sections
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
+
+\usepackage{titling}
+\setlength{\droptitle}{-90pt} % The negative number moves the title closer to the top of the page
+\title{$title$} % name $if(title)$$title$$endif$
+\date{$if(date)$$date$\\$endif$} % Leave blank to remove the date
+\author{$name$\\\\
+  $if(website)$$website$\\\\$endif$
+$street$ \textbar{} $city$, $postcode$\\ %Put your address here
+$phone$ \textbar{} $email$ } % put your contact information here
+
+% BEGIN DOCUMENT
+\begin{document}
+\maketitle
+\begin{raggedright}
+$body$
+\end{raggedright}
+\end{document}
