@@ -43,6 +43,7 @@ USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 DISPLAY_PAGES_ON_MENU = False
 # HOME_HIDE_TAGS = False
+DISABLE_URL_HASH = True
 
 
 DISQUS_SITENAME = "henrikfinsberg.com"
