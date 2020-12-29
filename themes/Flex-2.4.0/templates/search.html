@@ -17,9 +17,10 @@
         });
     </script>
     <article>
-        <div align="center"><input type="text" size="60" id="tipue_search_input">
-            <input type="button" id="tipue_search_button" value="Search">
-        </div>
+        <form action="search.html" align="center">
+            <input type="text" name="q" size="60" id="tipue_search_input">
+            <input type="button" id="tipue_search_button" value="Search" onclick="this.form.submit();">
+        </form>
         <div id="tipue_search_content"></div>
     </article>
 </div>
