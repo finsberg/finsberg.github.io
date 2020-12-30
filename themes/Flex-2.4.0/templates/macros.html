@@ -1,8 +1,8 @@
 {# Macro to add a figure with caption to a post. #}
-{% macro figure(src, caption='') -%}
+{% macro figure(src, caption='', width='100%') -%}
 <figure>
     <a href="/images/{{ src }}">
-        <img src="/images/{{ src }}" title="{{ caption }}" alt="{{ caption }}">
+        <img src="/images/{{ src }}" title="{{ caption }}" alt="{{ caption }}" width="{{ width }}">
     </a>
     {% if caption %}
     <figcaption>{{ caption }}</figcaption>

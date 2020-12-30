@@ -86,7 +86,7 @@ STATIC_PATHS = ["images", "assets"]
 
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["jinja2content", "tipue_search"]
+PLUGINS = ["jinja2content", "tipue_search", "render_math"]
 
 JINJA2CONTENT_PREFIX = "{% import 'macros.html' as m %}"
 
