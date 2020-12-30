@@ -1,11 +1,11 @@
 ---
-Title: Cardiac Mechanics
+Title: Cardiac modeling
 Date: 2018-10-05 08:00
 Modified: 2018-10-05 08:00
 Category: Cardiac modeling
-Tags: modeling, cardiac, mechanics
-Slug: cardiac-mechanics
-Summary: What is cardiac modelling, and how can we model the mechanics of the heart.
+Tags: modeling, cardiac, modeling
+Slug: cardiac-modeling
+Summary: How can we model the heart?
 ---
 
 
