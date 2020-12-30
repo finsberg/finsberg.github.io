@@ -50,13 +50,13 @@
   <meta name="msapplication-TileColor" content="#333">
 
 <meta name="author" content="Henrik Finsberg" />
-<meta name="description" content="" />
+<meta name="description" content="Python differs from many other programming languages in the way it represents integers. Basically everything in python is a object and and integers are no different. This naturally has some pros and cons. While you need to be careful when working with large integers in other programming langues you can …" />
 <meta name="keywords" content="python">
 
 
 <meta property="og:site_name" content="Henrik Finsberg's personal website"/>
 <meta property="og:title" content="Allocating memory for integers in python"/>
-<meta property="og:description" content=""/>
+<meta property="og:description" content="Python differs from many other programming languages in the way it represents integers. Basically everything in python is a object and and integers are no different. This naturally has some pros and cons. While you need to be careful when working with large integers in other programming langues you can …"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="./python-integers-memory.html"/>
 <meta property="og:type" content="article"/>
@@ -164,7 +164,94 @@
 
 
   <div>
-    
+    <p>Python differs from many other programming languages in the way it represents integers. Basically everything in python is a object and and integers are no different. This naturally has some pros and cons. While you need to be careful when working with large integers in other programming langues you can basically use as large numbers as you want (it is limited by the RAM on your computer). For example in <code>C++</code> you can declare an integer using the <code>int</code> type as long as it is smaller (im absolute value) than $2^31 - 1$. Larger numbers can be declared using e.g <code>long</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="kt">int</span> <span class="n">small_number</span><span class="p">;</span>  <span class="c1">// smaller than $2^31 - 1$</span>
+<span class="kt">long</span> <span class="n">large_number</span><span class="p">;</span>  <span class="c1">// smaller 2^63 -1</span>
+</code></pre></div>
+
+
+<p>In <code>C++</code> an <code>int</code> takes up 4 bytes of the memory while a <code>long</code> takes up 8 bytes of memory. In python, we can see how many byes an integer takes up by using <code>sys.getsizeof</code></p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="kn">import</span> <span class="nn">sys</span>
+<span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">getsizeof</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+</code></pre></div>
+
+
+<p>meaning than an integer takes up 28 bytes. Larger numbers takes up more memory. For example <code>2**29</code> takes up 28 bytes while <code>2**30</code> takes up 32 bytes</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">getsizeof</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="mi">29</span><span class="p">))</span>
+<span class="mi">28</span>
+<span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">getsizeof</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="mi">30</span><span class="p">))</span>
+<span class="mi">32</span>
+</code></pre></div>
+
+
+<p>If your python program uses a lot of integer this can lead to a high memory usage. However, since there are some numbers that are more in use than others, python does a little trick in order to lower the memory usage. </p>
+<p>We know that we can check if two object in python are the same by using the <code>==</code> operator. For example</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">523</span>
+<span class="o">&gt;&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">523</span>
+<span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="o">==</span> <span class="n">y</span><span class="p">)</span>
+<span class="kc">True</span>
+</code></pre></div>
+
+
+<p>To check that <code>x</code> and <code>y</code> points to the same memory address we can use the <code>is</code> operator</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="ow">is</span> <span class="n">y</span><span class="p">)</span>
+<span class="kc">False</span>
+</code></pre></div>
+
+
+<p>which is the same as doing</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">==</span> <span class="nb">id</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+<span class="kc">False</span>
+</code></pre></div>
+
+
+<p>If we were create a new variable <code>z</code> from <code>x</code> then we would get a variable pointing to the same memory address</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="n">z</span> <span class="o">=</span> <span class="n">x</span>
+<span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">z</span> <span class="ow">is</span> <span class="n">x</span><span class="p">)</span>
+<span class="kc">True</span>
+</code></pre></div>
+
+
+<p>Here comes the exception: For small numbers the above example is not valid. If you try the following</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">42</span>
+<span class="o">&gt;&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">42</span>
+</code></pre></div>
+
+
+<p>then you will actually find that</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="ow">is</span> <span class="n">y</span><span class="p">)</span>
+<span class="kc">True</span>
+</code></pre></div>
+
+
+<p>You will actually find that all integers between -5 and 256 share this property</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="n">s</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="o">&gt;&gt;</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">257</span><span class="p">):</span>
+<span class="o">&gt;&gt;</span>     <span class="n">x</span> <span class="o">=</span> <span class="nb">eval</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+<span class="o">&gt;&gt;</span>     <span class="n">y</span> <span class="o">=</span> <span class="nb">eval</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+<span class="o">&gt;&gt;</span>     <span class="n">s</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span> <span class="ow">is</span> <span class="n">y</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="nb">all</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+<span class="kc">True</span>
+</code></pre></div>
+
+
+<p>while</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="o">-</span><span class="mi">6</span>
+<span class="o">&gt;&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="mi">6</span>
+<span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="ow">is</span> <span class="n">y</span><span class="p">)</span>
+<span class="kc">False</span>
+</code></pre></div>
+
+
+<p>and</p>
+<div class="highlight"><pre><span></span><code><span class="o">&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="mi">257</span>
+<span class="o">&gt;&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">257</span>
+<span class="o">&gt;&gt;</span> <span class="nb">print</span><span class="p">(</span><span class="n">x</span> <span class="ow">is</span> <span class="n">y</span><span class="p">)</span>
+<span class="kc">False</span>
+</code></pre></div>
+
+
+<p>In other words, python pre-allocates memory for the integers between -5 and 256 and and uses these pre-allocated integers anytime you declare an integer of this size. If the integer is outside this range then python will create a new object.</p>
   </div>
   <div class="tag-cloud">
     <p>
