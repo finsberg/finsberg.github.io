@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet/less" type="text/css" href="./theme/stylesheet/style.less">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
+
+  <link id="dark-theme-style" rel="stylesheet" type="text/css"   media="(prefers-color-scheme: dark)"      href="./theme/stylesheet/dark-theme.min.css">
+
+  <link id="pygments-dark-theme" rel="stylesheet" type="text/css"      media="(prefers-color-scheme: dark)"      href="./theme/pygments/monokai.min.css">
+  <link id="pygments-light-theme" rel="stylesheet" type="text/css"     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"      href="./theme/pygments/github.min.css">
+
+  <script src="./theme/tipuesearch/jquery.min.js"></script>
+  <script src="./theme/tipuesearch/tipuesearch.min.js"></script>
+  <script src="./theme/tipuesearch/tipuesearch.min.js"></script>
+  <script src="./theme/tipuesearch/tipuesearch_set.min.js"></script>
+  <script src="./tipuesearch_content.js"></script>
+  <link rel="stylesheet" href="./theme/tipuesearch/tipuesearch.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/solid.css">
+
+
+
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#333">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#333">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- Microsoft EDGE -->
+  <meta name="msapplication-TileColor" content="#333">
+
+<meta name="author" content="Henrik Finsberg" />
+<meta name="description" content="What is cardiac modelling, and how can we model the mechanics of the heart." />
+<meta name="keywords" content="modeling, cardiac, mechanics">
+
+
+<meta property="og:site_name" content="Henrik Finsberg's personal website"/>
+<meta property="og:title" content="Cardiac Mechanics"/>
+<meta property="og:description" content="What is cardiac modelling, and how can we model the mechanics of the heart."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="./cardiac-mechanics.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-10-05 08:00:00+02:00"/>
+<meta property="article:modified_time" content="2018-10-05 08:00:00+02:00"/>
+<meta property="article:author" content="./author/henrik-finsberg.html">
+<meta property="article:section" content="Cardiac modeling"/>
+<meta property="article:tag" content="modeling"/>
+<meta property="article:tag" content="cardiac"/>
+<meta property="article:tag" content="mechanics"/>
+<meta property="og:image" content="/images/profile.jpg">
+
+  <title>Henrik Finsberg's personal website &ndash; Cardiac Mechanics</title>
+
+</head>
+
+<body >
+  <aside>
+    <div>
+      <a href=".">
+        <img src="/images/profile.jpg" alt="Henrik Finsberg" title="Henrik Finsberg">
+      </a>
+
+      <h1>
+        <a href=".">Henrik Finsberg</a>
+      </h1>
+
+<p>Senior Research Engineer</p>      <ul class="list">
+        <li>
+          <a class="sc-" href="https://www.simula.no/people/henriknf" target="_blank">
+            <img src="./theme/img/simula.png" alt="simula" height="50px">
+          </a>
+        </li>
+      </ul>
+
+      <nav>
+        <ul class="list">
+
+
+
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li>
+          <a  class="sc-envelope" href="mailto:henriknf@simula.no" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a  class="sc-github" href="https://github.com/finsberg" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a  class="sc-bitbucket" href="https://bitbucket.org/finsberg/" target="_blank">
+            <i class="fab fa-bitbucket"></i>
+          </a>
+        </li>
+        <li>
+          <a  class="sc-linkedin" href="https://www.linkedin.com/in/henrik-finsberg-51664b53/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a  class="sc-researchgate" href="https://www.researchgate.net/profile/Henrik_Finsberg" target="_blank">
+            <i class="fab fa-researchgate"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="./">Home</a>
+
+      <a target="_self"
+        href="./pages/about.html">
+        About
+      </a>
+      <a target="_self"
+        href="./pages/curriculum-vitae.html">
+        Curriculum Vitae
+      </a>
+      <a target="_self"
+        href="./pages/research.html">
+        Research
+      </a>
+      <a target="_self"
+        href="./pages/teaching.html">
+        Teaching
+      </a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="cardiac-mechanics">Cardiac Mechanics</h1>
+    <p>
+      Posted on October 05, 2018 in <a href="./category/cardiac-modeling.html">Cardiac modeling</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>The heart is the muscular organ responsible to pump blood in order to
+supply the body with oxygen and nutrients. The heart consist of four
+chambers, namely the left and right atria and the left and right
+ventricles.</p>
+<figure>
+    <a href="/images/cardiac_modeling/CG_Heart.gif">
+        <img src="/images/cardiac_modeling/CG_Heart.gif" title="" alt="" width="300px">
+    </a>
+</figure>
+
+<h2>What is modeling?</h2>
+<p>Before talking about cardiac modeling, it make sense to first define what we mean by modeling in general. Models are found everywhere and they are used to make the world comprehensible. Modeling it simply that are of creating and using models.</p>
+<p>When you are driving home from work and you want to give an estimate of how long time it will take before you are home, you can start by checking how long it is, then you check what is the average speed limit and then you can simply divide the distance by the average speed limit to get an estimate of the time.
+Taking the distance and dividing by the average speed limit is a very simple model, but often good enough. You could also take into account construction work along the way, or you can use data of the number of cars on the road during the time period that you are driving for previous days, but your model, which will be a collection of information and a way of putting the information together, will soon be too complicated for you to use. This is where <em>computational models</em> come in.</p>
+<p>Models are particularly useful when we want to use computers to help us understand some type of phenomena. In this case we often call the model, computational. If you can formulate your problem in terms of mathematical equations it is very likely that you can solve it with a computer.</p>
+<h2>What is cardiac modeling?</h2>
+<p>Cardiac modeling is simply the art of creating and applying models to the heart. As you may know, the heart exhibit a so called multi-scale nature, meaning that there are processes happening at different scales that work together. For instance, there are chemical reactions happening at the molecular level that are responsible for making the heart contract, and any perturbations in these processes might have effect on the overall pumping effect.</p>
+<h3>Multi-scale modeling and homogenization</h3>
+<p>Modeling processes along different scales if referred to as <em>multi-scale modeling</em>, and this is an ongoing research topic. Modeling processes along different scale can be extremely hard, especially since the events are usually happening at different time scales, and the interaction between scales often goes both ways, i.e the changes in the molecular processes affect processes at the tissue level and changes in the processes at the tissue level changes gives rise to changes at the molecular level.</p>
+<p>Since multi-scale modeling is hard it is often useful to focus the attention at one particular scale. The question is then what to do with the multi-scale issue? A common approach is to assume some type of continuity down at the lower scale. This continuity is often referred to as <em>homogenization</em>.</p>
+<p>Lets take a realistic example. The cardiac tissue is made up by cardiac cells. Each cell can be thought of (here comes the modeling approach) as a compartment having an inside (<em>the intracellular space</em>) an outside (<em>the extracellular space</em>) and a something separating the inside from the outside (<em>the membrane</em>). Now, if you wanted to make you model of the cardiac tissue "realistic" you should be able to zoom in and be able to see some regions with only intracellular space and some region with only extracellular space. However, having this amount of detail in your model can be very expensive when you want to do computations. Therefore, a common approach is to assume that at any point you have both an extracellular and an intracellular space. Within the cardiac modeling community this modeling approach is used when trying to model the electrical current that flows through the heat, and we call this model the <a href="https://en.wikipedia.org/wiki/Bidomain_model">bidomain model</a>.</p>
+<h2>Modeling the Mechanics of the heart</h2>
+<p>Since I spent a lot of my time during my PhD to look at models for the mechanics of the heart I will write a little section about this.</p>
+<p>When modeling the mechanics of the heart at an organ level
+it is common to only focus on the ventricles, and in particular the
+left ventricle which is the chamber responsible to pump blood from the
+heart to the body.</p>
+<p>In other engineering disciplines such as in mechanical engineering or civil engineering, when talking about mechanics we typically talk about stress and strain. <em>Stress</em> can be thought of as the forces acting on a material whereas <em>strain</em> is the resulting change in shape as a response to a change in stresses. Stress and strain are like yin and yang. Just knowing one of them will only provide you with half the story. For example if you stretch a rubber band by 10 percent you hardly need to apply any force to achieve that, while you need to apply a massive amount of force if you want to do the same with steel.</p>
+<p>The differences between rubber and steel lies in their material properties which in the case of the heart is generally unknown. Moreover, while it is "easy" to measure the strain (which can be achieved using imaging techniques), it is impossible to measure the stresses in the heart. Therefore <em>models are the only way to get an estimate of the stresses in the heart</em></p>
+<h3>The law of Laplace</h3>
+<p>The first thing we need to do in order to estimate the stresses in the heart is to make assumptions. Assumptions are an important ingredient in modeling, and how well you are going to represent the physical object you are studying depends on your modeling assumptions.</p>
+<p>One of the first models ever used to study stresses in the left ventricle is known as the law of Laplace. Laplace is i famous mathematician from the 18th century, and although his name is probably best known from the Laplace equation or the Laplace transform, most clinicians know him for giving name to a formula that relates the stresses in the heart to a few measurable quantities. If we assume that the left ventricle is i sphere with a radius <span class="math">\(r\)</span>, a wall thickness <span class="math">\(w\)</span> that is subjected to a pressure <span class="math">\(P\)</span>, then the stress on the wall <span class="math">\(\sigma\)</span> is given by</p>
+<div class="math">$$
+\sigma = \frac{P \cdot r}{2 w}
+$$</div>
+<p>I know what you are thinking; the underlying assumption here that the ventricle is similar to a sphere is pretty far from the reality. Although it is true that we cannot really trust the numbers we are getting out from this formula, we can use it to get some intuition about what is happening with the stresses when the morphology (the form and shape) of the ventricle is changing. For example we would expect that the stresses goes up when the radius goes up, while the stresses goes down it the width of the ventricular wall goes up.</p>
+<h3>What is a realistic model?</h3>
+<p>The law of Laplace is a great model if you want to build up some intuition about how stresses are related to the shape for the left ventricle, but how can we more realistically model the stresses in the heart?</p>
+<p>First of all, we need a more realistic geometry. For example we could use medical images of the heart, and then perform so called image segmentation in order to get a more realistic geometry.</p>
+<figure>
+    <a href="/images/cardiac_modeling/4decho.png">
+        <img src="/images/cardiac_modeling/4decho.png" title="A 4D ultrasound image" alt="A 4D ultrasound image" width="300px">
+    </a>
+    <figcaption>A 4D ultrasound image</figcaption>
+</figure>
+
+<figure>
+    <a href="/images/cardiac_modeling/raw.png">
+        <img src="/images/cardiac_modeling/raw.png" title="Endocardial and epicardial surfaces segmented from an ultrasound image" alt="Endocardial and epicardial surfaces segmented from an ultrasound image" width="300px">
+    </a>
+    <figcaption>Endocardial and epicardial surfaces segmented from an ultrasound image</figcaption>
+</figure>
+
+<figure>
+    <a href="/images/cardiac_modeling/mesh.png">
+        <img src="/images/cardiac_modeling/mesh.png" title="Mesh obtained from the surfaces" alt="Mesh obtained from the surfaces" width="300px">
+    </a>
+    <figcaption>Mesh obtained from the surfaces</figcaption>
+</figure>
+
+<p>Second we need to incorporate more realistic structure of the cardiac tissue. It is well known that the cardiac tissue is a non-linear anisotropic material.
+By <em>non-linear</em> we mean that the amount of force (or stress) you need to apply changes non-linearly with the amount of strain. This is similar to rubber; To begin with you can stretch rubber a lot without applying much force, but as the rubber stretches you will find that you need to apply a greater amount force to stretch the rubber further. By anisotropic we mean that the stress-strain relation is different depending on how you look at the material. For fibre-reinforced concrete, the properties along the steel wires are different that in the direction orthogonal to the steel fibers.</p>
+<figure>
+    <a href="/images/cardiac_modeling/orthotrophic.png">
+        <img src="/images/cardiac_modeling/orthotrophic.png" title="The cardiac tissue is an orthotropic material, meaning that we can find local orthogonal coordinate system point in the direction along the fibers, sheets and the sheet-normal axis (image src: [Holzapfel and Ogden 2009])" alt="The cardiac tissue is an orthotropic material, meaning that we can find local orthogonal coordinate system point in the direction along the fibers, sheets and the sheet-normal axis (image src: [Holzapfel and Ogden 2009])" width="400px">
+    </a>
+    <figcaption>The cardiac tissue is an orthotropic material, meaning that we can find local orthogonal coordinate system point in the direction along the fibers, sheets and the sheet-normal axis (image src: [Holzapfel and Ogden 2009])</figcaption>
+</figure>
+
+<p>In cardiac tissue we also have fibers (so called muscle fibers) that bundles together and varies through the wall. These fibers are again organized in a laminar structure called sheets. This microstructure is of course an important ingredient in the modeling assumptions, but it is not possible to accurately measure this microstructure in a beating heart.</p>
+<p>In the end the level of realism in your model is determined by what you want to use the model for, and of course the availability of realistic model information.</p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/modeling.html">modeling</a>
+      <a href="./tag/cardiac.html">cardiac</a>
+      <a href="./tag/mechanics.html">mechanics</a>
+    </p>
+  </div>
+
+  <div class="center social-share">
+    <p>Like this article? Share it with your friends!</p>
+    <div class="addthis_native_toolbox"></div>
+    <div class="addthis_sharing_toolbox"></div>
+    <div class="addthis_inline_share_toolbox"></div>
+  </div>
+
+
+    <div class="addthis_relatedposts_inline"></div>
+
+
+<!-- Disqus -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'flex-pelican';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view comments.
+</noscript>
+<!-- End Disqus -->
+</article>
+
+
+    <footer>
+<p>&copy; 2020 Henrik Finsberg</p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+  <span class="footer-separator">|</span>
+  Switch to the <a href="javascript:void(0)" onclick="theme.switch(`dark`)">dark</a> | <a href="javascript:void(0)" onclick="theme.switch(`light`)">light</a> | <a href="javascript:void(0)" onclick="theme.switch(`browser`)">browser</a> theme
+  <script id="dark-theme-script"
+          src="./theme/dark-theme/dark-theme.min.js"
+          data-enable-auto-detect-theme="True"
+          data-default-theme="light"
+          type="text/javascript">
+  </script>
+</p>    </footer>
+  </main>
+
+
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55adbb025d4f7e55"
+    async="async"></script>
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Henrik Finsberg's personal website ",
+  "url" : ".",
+  "image": "/images/profile.jpg",
+  "description": "Foo Bar's Thoughts and Writings"
+}
+</script>
+<a href="https://github.com/finsberg/finsberg.github.io" class="github-corner" aria-label="View source on Github">
+    <svg width="80"
+         height="80"
+         viewBox="0 0 250 250"
+         style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
+         aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor"
+              style="transform-origin: 130px 106px;"
+              class="octo-arm">
+        </path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor"
+              class="octo-body">
+        </path>
+    </svg>
+</a>
+<style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+  <script>
+    $(document).ready(function () {
+      $('#tipue_search_input').tipuesearch();
+    });
+  </script>
+
+</body>
+
+</html>
