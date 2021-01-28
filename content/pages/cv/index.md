@@ -312,6 +312,9 @@ Oslo, Norway [PDF](/assets/talks/trial_lecture.pdf)
 
 ### Conference talks
 
+- What do we really mean bymyocardial stiffness? - A modeler's perspective, NORHEART, Imaging the stiff heart: state-of-the-art and the road ahead (workshop) [PDF](/assets/talks/myocardial_stiffness.pdf)
+
+
 - Assessment of regional myocardial work through adjoint-­based data
 assimilation, International Conference on Computational Science and Engineering 2017, Oslo Norway, *In memory of Hans Petter Langtangen* [PDF](/assets/talks/CSE251017.pdf)
 
