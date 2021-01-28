@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from datetime import datetime
 
+
 AUTHOR = "Henrik Finsberg"
 SITENAME = "Henrik Finsberg's personal website"
 SITEURL = ""
@@ -13,10 +14,6 @@ SITELOGO = SITEURL + "/images/profile.jpg"
 FAVICON = SITEURL + "/images/favicon.ico"
 
 HOME_TITLE = "Welcome to my personal website"
-HOME_INDEX = """Hi, my name is Henrik Finsberg and this is my 
-personal website. I am a applied mathematician who works as a 
-researcher within the field of computational physiology.
-"""
 
 BROWSER_COLOR = "#333"
 ROBOTS = "index, follow"
