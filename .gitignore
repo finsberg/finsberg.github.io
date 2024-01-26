@@ -2,6 +2,5 @@ _site/
 .bundle/
 .jekyll-metadata
 Gemfile.lock
-vendor
 markdown_generator
 .DS_Store
