@@ -1,7 +1,11 @@
 ---
 title: "SimcardioTest"
-excerpt: "Development of computational tools for in-silico trials"
+excerpt: "Simulation of Cardiac Devices and Drugs for In-Silico Testing and Certification (SimCardioTest)"
 collection: projects
 ---
 
-TBW. See more at https://www.simcardiotest.eu
+Despite massive investment in healthcare, huge R&D cost increase and regulatory pathway complexity hamper tremendously commercialisation of new devices & medicines, putting patient populations at risk of not receiving adequate therapy. At the same time, outside healthcare, computer modelling and simulation (CM&S) is precisely recognised to increase speed & agility while reducing costs of development. CM&S can create scientific evidence based on controlled investigations including variability, uncertainty quantification, and satisfying demands for safety, efficacy & improved access. Cardiac modelling has dramatically gained maturity over the last decades, with personalisation to clinical data enabling validation. We selected a number of cardiac devices and medicines where CM&S is mature enough and that represent the most common cardiac pathologies, to demonstrate a standardised and rigorous approach for in-silico clinical trials. SimCardioTest will bring a disruptive innovation by creating an integrated and secure platform standardising & bridging model simulations, in-silico trials, and certification support. This environment will go beyond the state-of-the-art in computational multi-physics & multi-scale personalised cardiac models. Diseased conditions and gender/age differences will be considered to overcome clinical trials limitations such as under-representation of groups (e.g. women, children, low socio- economic status). Advanced big data, visual analytics & artificial intelligence tools will extract the most relevant information. It is critical that Europe demonstrates its capacity to leverage in-silico technology in order to be competitive in healthcare innovation. SimCardioTest exploitation aims at delivering a major economic impact on the European pharmaceutical and cardiac devices industry. It will accelerate development, certification and commercialisation, and will produce a strong societal impact contributing to personalised healthcare. 
+
+## Related software projects
+
+- <a href="{{ site.url }}/softwares/simcardems">simcardems</a>

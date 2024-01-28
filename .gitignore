@@ -4,3 +4,4 @@ _site/
 Gemfile.lock
 markdown_generator
 .DS_Store
+venv
