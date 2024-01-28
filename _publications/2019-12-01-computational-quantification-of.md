@@ -1,0 +1,12 @@
+---
+title: "Computational quantification of patient-specific changes in ventricular dynamics associated with pulmonary hypertension"
+collection: publications
+permalink: /publication/computational-quantification-of
+excerpt: 'This study examines the mechanical changes associated with pulmonary arterial hypertension (PAH) by analyzing clinical data and using computational modeling. The findings suggest that the ratio of right ventricle (RV) to left ventricle (LV) end-diastolic volume can be used as a clinical index for assessing disease severity and estimating RV contractility in PAH patients.'
+date: 2019-12-01
+venue: 'American Journal of Physiology-Heart and Circulatory Physiology'
+paperurl: 'https://journals.physiology.org/doi/full/10.1152/ajpheart.00094.2019'
+authors:': 'Henrik Finsberg, CE Xi, Xiaodan Zhao, Ju Le Tan, Martin Genet, Joakim Sundnes, Lik Chuan Lee, Liang Zhong, Samuel T Wall'
+---
+
+Pulmonary arterial hypertension (PAH) causes an increase in the mechanical loading imposed on the right ventricle (RV) that results in progressive changes to its mechanics and function. Here, we quantify the mechanical changes associated with PAH by assimilating clinical data consisting of reconstructed three-dimensional geometry, pressure, and volume waveforms, as well as regional strains measured in patients with PAH (n = 12) and controls (n = 6) within a computational modeling framework of the ventricles. Modeling parameters reflecting regional passive stiffness and load-independent contractility as indexed by the tissue active tension were optimized so that simulation results matched the measurements. The optimized parameters were compared with clinical metrics to find usable indicators associated with the underlying mechanical changes. Peak contractility of the RV free wall (RVFW) γRVFW,max was found to be strongly correlated and had an inverse relationship with the RV and left ventricle (LV) end-diastolic volume ratio (i.e., RVEDV/LVEDV) (RVEDV/LVEDV)+ 0.44, R2 = 0.77). Correlation with RV ejection fraction (R2 = 0.50) and end-diastolic volume index (R2 = 0.40) were comparatively weaker. Patients with with RVEDV/LVEDV > 1.5 had 25% lower γRVFW,max (P < 0.05) than that of the control. On average, RVFW passive stiffness progressively increased with the degree of remodeling as indexed by RVEDV/LVEDV. These results suggest a mechanical basis of using RVEDV/LVEDV as a clinical index for delineating disease severity and estimating RVFW contractility in patients with PAH.

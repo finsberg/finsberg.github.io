@@ -1,0 +1,13 @@
+---
+title: "Improved computational identification of drug response using optical measurements of human stem cell derived cardiomyocytes in microphysiological systems"
+collection: publications
+permalink: /publication/improved-computational-identification
+excerpt: 'This study aims to improve the usefulness of human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) for drug screening applications by addressing their relative immaturity compared to adult cardiomyocytes. By utilizing an updated computational procedure, the methodology can more efficiently identify drug-induced changes and quantitate important metrics, ultimately enhancing the potential for employing stem cell-derived experimental tissues in elucidating drug effects in adult cardiomyocytes'
+date: 2020-02-12
+venue: 'Frontiers in Pharmacology'
+paperurl: 'http://dx.doi.org/10.3389/fphar.2019.01648'
+authors:': 'Karoline Horgmo Jæger, Verena Charwat, Bérénice Charrez, Henrik Finsberg, Mary M. Maleckar, Samuel Wall, Kevin E. Healy, Aslak Tveito'
+---
+
+
+Cardiomyocytes derived from human induced pluripotent stem cells (hiPSC-CMs) hold great potential for drug screening applications. However, their usefulness is limited by the relative immaturity of the cells’ electrophysiological properties as compared to native cardiomyocytes in the adult human heart. In this work, we extend and improve on methodology to address this limitation, building on previously introduced computational procedures which predict drug effects for adult cells based on changes in optical measurements of action potentials and Ca2+ transients made in stem cell derived cardiac microtissues. This methodology quantifies ion channel changes through the inversion of data into a mathematical model, and maps this response to an adult phenotype through the assumption of functional invariance of fundamental intracellular and membrane channels during maturation. Here, we utilize an updated action potential model to represent both hiPSC-CMs and adult cardiomyocytes, apply an IC50-based model of dose-dependent drug effects, and introduce a continuation-based optimization algorithm for analysis of dose escalation measurements using five drugs with known effects. The improved methodology can identify drug induced changes more efficiently, and quantitate important metrics such as IC50 in line with published values. Consequently, the updated methodology is a step towards employing computational procedures to elucidate drug effects in adult cardiomyocytes for new drugs using stem cell-derived experimental tissues.

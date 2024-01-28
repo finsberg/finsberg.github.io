@@ -1,0 +1,12 @@
+---
+title: "Regional Left Ventricular Fiber Stress Analysis for Cardiac Resynchronization Therapy Response"
+collection: publications
+permalink: /publication/regional-left-ventricular
+excerpt: 'This study explores a novel measure, the standard deviation of regional wall stress at the time of mitral valve closure (SD_MVC), for assessing response to cardiac resynchronization therapy (CRT) in heart failure patients. Using a computational modeling framework, the researchers found that patients with lower SD_MVC responded better to CRT, with SD_MVC correlating with long-term response based on end-diastolic volume reduction. These findings suggest that SD_MVC could potentially improve patient selection criteria for CRT implantation. However, further studies with a larger patient cohort are needed to validate these results.'
+date: 2023-02-01
+venue: 'Annals of Biomedical Engineering'
+paperurl: 'http://dx.doi.org/10.22541/au.160865713.30751611/v1'
+authors:': 'Mohammad Albatat, Henrik Finsberg, Hermenegild Arevalo, Joakim Sundnes, Jacob Bergsland, Ilangko Balasingham, Hans Henrik Odland'
+---
+
+Cardiac resynchronization therapy (CRT) is an effective treatment for a subgroup of heart failure (HF) patients, but more than 30% of those selected do not improve after CRT implantation. Imperfect pre-procedural criteria for patient selection and optimization are the main causes of the high non-response rate. In this study, we evaluated a novel measure for assessing CRT response. We used a computational modeling framework to calculate the regional stress of the left ventricular wall of seven CRT patients and seven healthy controls. The standard deviation of regional wall stress at the time of mitral valve closure (SD_MVC) was used to quantify dyssynchrony and compared between patients and controls and among the patients. The results show that SD_MVC is significantly lower in controls than patients and correlates with long-term response in patients, based on end-diastolic volume reduction. In contrast to our initial hypothesis, patients with lower SD_MVC respond better to therapy. The patient with the highest SD_MVC was the only non-responder in the patient cohort. The distribution of fiber stress at the beginning of the isovolumetric phase seems to correlate with the degree of response and the use of this measurement could potentially improve selection criteria for CRT implantation. Further studies with a larger cohort of patients are needed to validate these results.

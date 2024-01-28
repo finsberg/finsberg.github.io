@@ -2,7 +2,7 @@
 title: "A cell-based framework for modeling cardiac mechanics"
 collection: publications
 permalink: /publication/2023-smart
-excerpt: 'EMI-based modeling of cardiac mechanics'
+excerpt: 'This study introduces a mathematical and numerical framework for investigating tissue-level cardiac mechanics on a microscale by considering explicit three-dimensional geometrical representations of cells within a matrix. The model explores mechanical differences between the extracellular and intracellular spaces, and sensitivity analysis reveals the significance of extracellular matrix stiffness for intracellular stress under contraction. This work expands upon existing models and offers a new framework to explore complex cell-cell and cell-matrix interactions in cardiac mechanics.'
 date: 2023-01-05
 venue: 'Biomechanics and Modeling in Mechanobiology'
 paperurl: 'https://link.springer.com/article/10.1007/s10237-022-01660-8'
