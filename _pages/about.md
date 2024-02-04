@@ -25,4 +25,6 @@ I work on developing of scientific software with applications in computational p
 ### Short bio
 I finished a joint master degree in Applied and Engineering mathematics at NTNU in Trondheim and DTU in Coopenhagen. In 2014 I started my PhD in Scientific Computing at Simula Research Laboratory within the Center for Cardiological Innovation, and defended my PhD in January 2018. Since 2018 I have worked as a Research Enginner at Simula Research Laboratory.
 
+### Outside of Work
+Outside of work, I find great joy in running and spending quality time with my family. I am happily married to my wife, Elisabeth, and we are blessed with two beautiful daughters, Ingerid (born in 2014) and Eva (born in 2017).
 
