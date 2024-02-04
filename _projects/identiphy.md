@@ -1,6 +1,6 @@
 ---
 title: "IdentiPhy"
-excerpt: "Rent breakthroughs in hiPSC research have led to the development of 'heart-on-chip' models, offering potential for transformative drug development, but the integration of these models into pipelines remains a challenge; the IdentiPhy project aims to address this by creating technology that enhances compound safety risk prediction using optical measurements and computational analysis, with the goal of improving the efficiency and reducing costs and time in bringing safe drugs to market."
+excerpt: "Recent breakthroughs in hiPSC research have led to the development of 'heart-on-chip' models, offering potential for transformative drug development, but the integration of these models into pipelines remains a challenge; the IdentiPhy project aims to address this by creating technology that enhances compound safety risk prediction using optical measurements and computational analysis, with the goal of improving the efficiency and reducing costs and time in bringing safe drugs to market."
 collection: projects
 ---
 
