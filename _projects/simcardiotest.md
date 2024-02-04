@@ -9,3 +9,4 @@ Despite massive investment in healthcare, huge R&D cost increase and regulatory 
 ## Related software projects
 
 - <a href="{{ site.url }}/softwares/simcardems">simcardems</a>
+- <a href="{{ site.url }}/softwares/fenics_beat">fenics-beat</a>
