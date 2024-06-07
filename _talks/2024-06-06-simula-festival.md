@@ -16,4 +16,4 @@ affected by a drug. Then I will try to show how this can be translated to the
 whole organ an see how such models can be used to study safety and efficacy
 of drugs at the level of the individual. 
 
-Slides are found ![_](../assets/presentations/cardiac-modeling.pdf)
+Slides are found [here](../assets/presentations/cardiac-modeling.pdf)
