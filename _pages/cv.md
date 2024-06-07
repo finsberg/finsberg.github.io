@@ -137,10 +137,11 @@ and lead small construction projects.
 ### Activities
 
 - Co-organizer for [FEniCS 2024 conference in Oslo](https://fenicsproject.org/fenics-2024/)
-- 2023-present: Vice chairman for the parent work committee at Tanum elementary school
+- 2024-present: Chairman for the parent work committee at Tanum elementary school
+- 2023-2024: Vice chairman for the parent work committee at Tanum elementary school
 - 2023-present: Coach for the local football team for Girls born 2017
 - 2023-present: Manager for the local football team for Girls born 2014
-- 2019-present: Member of local salary negotiation group
+- 2019-present: Tekna representative at Simula Research Laboratory
 - 2019-present: Safety delegate at Simula Research Laboratory
 
 - 2018-2020: Chairman of [Veslefrikk barnehage](http://veslefrikkbaerum.barnehage.no/Innhold/Side/54035)
