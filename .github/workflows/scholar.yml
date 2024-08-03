@@ -27,4 +27,3 @@ jobs:
         working-directory: "."
         token: ${{ secrets.GITHUB_TOKEN }}
         bibdir: "_publications"
-o
