@@ -15,8 +15,8 @@ redirect_from:
 ## Master Students
 * 2023-present: Edvin David Järve - Physics-informed neural networks for cardiac electrophysiology
 * 2023-present: Felix Forseth - Physics-informed neural networks for active cardiac mechanics
-* 2023-present: Emilie Dørum - Comparison of Classical Approaches to Topology Optimization in Fluid Applications with Machine Learning Based Techniques
 * 2022-present: Mansur Dadajev - Deep energy method for heart mechanics
+* 2023-2024: Emilie Dørum - Comparison of Classical Approaches to Topology Optimization in Fluid Applications with Machine Learning Based Techniques
 * 2022-2023: Iver Håkonsen - GPU-enabled Laplace-Dirichlet Rule-Based Method for Cardiac Fiber Computations (Co supervise)
 * 2021-2022: Bendik Steinsvåg Dalen - Characterization of Cardiac Cellular Dynamics Using Physics-informed Neural Networks
 
