@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/a-computational-study-of
 excerpt: 'Pulmonary arterial hypertension (PAH) presents a significant challenge to right ventricular (RV) function due to progressive pressure overload, necessitating adaptive remodeling in the form of increased wall thickness, enhanced myocardial contractility and stiffness to maintain cardiac performance'
 date: 2024-3-11
-venue: ''
+venue: 'Frontiers in Physiology'
 paperurl: 'https://www.frontiersin.org/articles/10.3389/fphys.2024.1360389/full'
 authors:': 'Oscar O Odeigah, Ethan D Kwan, Kristen M Garcia, Henrik Finsberg, Daniela Valdez-Jasso, Joakim Sundnes'
 ---
