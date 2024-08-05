@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/the-impact-of-mechano
 excerpt: 'Mechano-electric feedback (MEF) is thought to be an important factor in the increased arrhythmic risk observed clinically in heart failure and chronic infarct patients'
 date: 2024-3-1
-venue: ''
+venue: 'Computational Physiology: Simula Summer School 2023− Student Reports'
 paperurl: 'https://library.oapen.org/bitstream/handle/20.500.12657/88367/978-3-031-53145-3.pdf?sequence=1#page=98'
 authors:': 'Anthony Asencio, Melania Buonocunto, Matthew W Ellis, Karl Munthe, Kyle T Stark, Joakim Sundnes, Henrik Finsberg, Hermenegild J Arevalo'
 ---
