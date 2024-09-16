@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/automatic-motion-estimation
 excerpt: 'Human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) are an effective tool for studying cardiac function and disease, and hold promise for screening drug effects on human tissue'
 date: 2024-6-30
-venue: ''
-paperurl: 'https://arxiv.org/pdf/2407.00799'
+venue: 'Biomedical Physics & Engineering Express'
+paperurl: 'https://iopscience.iop.org/article/10.1088/2057-1976/ad7268/pdf'
 authors:': 'Henrik Finsberg, Verena Charwat, Kevin Healy, Samuel Wall'
 ---
 
