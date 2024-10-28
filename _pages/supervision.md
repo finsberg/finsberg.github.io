@@ -13,6 +13,7 @@ redirect_from:
 * 2018 - 2022: Åshild Telle - Modeling cardiac mechanics on a microscale - Mechanical modeling and analysis of cardiomyocytes and cardiac micromuscles
 
 ## Master Students
+* 2024-present: Alexander Hatle - Numerical analysis for cardiac electro-mechanics
 * 2023-present: Edvin David Järve - Physics-informed neural networks for cardiac electrophysiology
 * 2023-present: Felix Forseth - Physics-informed neural networks for active cardiac mechanics
 * 2022-present: Mansur Dadajev - Deep energy method for heart mechanics
