@@ -135,7 +135,7 @@ and lead small construction projects.
 
 
 ### Activities
-
+- Co-organizer for [Oslo Brain Fluid Symposium](https://www.med.uio.no/klinmed/english/research/centres/kg-jebsen-brain-fluid/news-and-events/events/2024/oslo-brain-fluid-symposium.html)
 - Co-organizer for [FEniCS 2024 conference in Oslo](https://fenicsproject.org/fenics-2024/)
 - 2024-present: Chairman for the parent work committee at Tanum elementary school
 - 2023-2024: Vice chairman for the parent work committee at Tanum elementary school
