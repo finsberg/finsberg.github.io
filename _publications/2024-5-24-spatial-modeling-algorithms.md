@@ -2,10 +2,10 @@
 title: Spatial modeling algorithms for reactions and transport (SMART) in biological cells
 collection: publications
 permalink: /publication/spatial-modeling-algorithms
-excerpt: 'Biological cells rely on precise spatiotemporal coordination of biochemical reactions to control their many functions'
+excerpt: 'Spatial Modeling Algorithms for Reactions and Transport (SMART) is a software package that uses advanced finite element analysis to efficiently and accurately simulate cell signaling networks and molecular transport in realistic cellular geometries, demonstrating its versatility and effectiveness across various biological systems.'
 date: 2024-5-24
-venue: ''
-paperurl: 'https://arxiv.org/pdf/2405.15968'
+venue: 'Nature Computational Science'
+paperurl: 'https://www.nature.com/articles/s43588-024-00745-x'
 authors:': 'Emmet A Francis, Justin G Laughlin, Jørgen S Dokken, Henrik NT Finsberg, Christopher T Lee, Marie E Rognes, Padmini Rangamani'
 ---
 
