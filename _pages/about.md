@@ -12,7 +12,7 @@ redirect_from:
 
 <img src="/images/profile.jpg" width="380px" alt="Henrik Finsberg" align="right" style="display:block;margin-bottom:25px;margin-left:auto;margin-right:auto;padding-left: 25px;padding-right: 25px;" z-index="1" />
 
-My name is Henrik Finsberg and I work as a Senior Research Engineer at [Simula Research Laboratory](https://www.simula.no) in the department for [Scientific Computing](https://www.simula.no/research/scientific-computing) and [Computational Physiology](Computational Physiology).
+My name is Henrik Finsberg and I work as a Chief Research Engineer at [Simula Research Laboratory](https://www.simula.no) in the department for [Scientific Computing](https://www.simula.no/research/scientific-computing) and [Computational Physiology](Computational Physiology).
 
 I care deeply about reproducible science and work on promoting best practices when it comes to scientific software development. 
 
