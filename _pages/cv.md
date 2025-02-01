@@ -12,21 +12,8 @@ redirect_from:
 
 ### Personal summary
 
-In October 2017 I started as a Research Engineer at Simula Research
-Laboratory in the department for Scientific Computing, and will work
-with development of computational modeling tools primarily with application
-in electrophysiology and mechanics.
-
-Before I started as a Research Engineer I was a PhD student in the Cardiac
-Modelling group in the department for Scientific Computing, also at Simula
-Research Laboratory. In my PhD I worked with patient specific models of
-the cardiac mechanics, and defended it at January 17th 2018.
-
-I graduated in 2014 after finishing a joint master degree in Applied and
-Engineering Mathematics at NTNU in Trondheim and DTU in Copenhagen. 
-
-My fields of interests are mathematical modelling, scientific computing and 
-high performance compting. 
+I develop computational tools and software to support researchers in their research goals, 
+with applications primarily in cardiac mechanics and electrophysiology.
 
 
 ### Education
@@ -89,8 +76,10 @@ industrial mathematics.
 
 
 ### Employment
+- 2025-present: Chief Research Engineer, [Simula Research Laboratory](https://www.simula.no)
+  - Working on various projects in the field of computational mechanics and electrophysiology.
 
-- 2021-present: Senior Research Engineer, [Simula Research Laboratory](https://www.simula.no)
+- 2021-2025: Senior Research Engineer, [Simula Research Laboratory](https://www.simula.no)
   - Development of high performance computational software tools and
 mathematical models for the study of Human Induced Pluripotent Stem Cells (hiPSC)
 
