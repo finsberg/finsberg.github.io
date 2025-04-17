@@ -5,7 +5,7 @@ permalink: /publication/human-induced-pluripotent
 excerpt: 'Cardiac organs-on-a-chip (OoCs) or microphysiological systems have the potential to predict cardiac effects of new drug candidates, including unanticipated cardiac outcomes, which are among the main causes for drug attrition'
 date: 2025-4-7
 venue: Nature protocols
-paperurl: https://www.nature.com/articles/s41596-025-01166-4#citeas
+paperurl: https://www.nature.com/articles/s41596-025-01166-4
 authors:': 'M Iveth Garcia, Keri Dame, Verena Charwat, Brian A Siemons, Henrik Finsberg, Bhavya Bhardwaj, Ryosuke Yokosawa, Ishan Goswami, Dylan Bruckner, Samuel T Wall, Kevin A Ford, Kevin E Healy, Alexandre JS Ribeiro'
 ---
 
