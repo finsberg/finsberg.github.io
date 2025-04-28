@@ -3,7 +3,7 @@ title: Estimation of Active Tension in Cardiac Microtissues by Solving a PDE‐C
 collection: publications
 permalink: /publication/estimation-of-active-tension
 excerpt: ' Microphysiological systems (MPS) provide a highly controlled environment for the development and testing of human‐induced pluripotent stem cell‐based cardiac microtissues, with promising applications in disease modeling and drug development'
-date: 2025-4
+date: 2025-4-24
 venue: 'International Journal for Numerical Methods in Biomedical Engineering'
 paperurl: 'https://onlinelibrary.wiley.com/doi/pdf/10.1002/cnm.70034'
 authors:': 'Åshild Telle, Verena Charwat, Bérénice Charrez, Henrik Finsberg, Kevin E Healy, Samuel T Wall'
