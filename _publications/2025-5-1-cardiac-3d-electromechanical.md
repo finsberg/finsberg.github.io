@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/cardiac-3d-electromechanical
 excerpt: 'Cardiac safety is a critical aspect of drug development'
 date: 2025-5-1
-venue: ''
+venue: 'Journal of Pharmacological and Toxicological Methods'
 paperurl: https://www.sciencedirect.com/science/article/abs/pii/S1056871925000577
 authors:': 'Jordi Llopis-Lorente, Ilse van Herck, María Teresa Mora, Henrik Finsberg, Cécile Daversin-Catty, Jørgen Dokken, Samuel Wall, Javier Saiz, Hermenegild Arevalo, Beatriz Trenor'
 ---
