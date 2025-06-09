@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/integration-of
 excerpt: 'Background and ObjectiveCardiac drug safety assessment is essential to detect molecules with potential adverse effects, particularly those increasing the risk of arrhythmias such as Torsade de Pointes (TdP)'
 date: 2025-6-4
-venue: ''
+venue: Computer Methods and Programs in Biomedicine 
 paperurl: https://www.sciencedirect.com/science/article/pii/S016926072500313X
 authors:': 'Lucia Priego, Maria Teresa Mora, Jordi Llopis-Lorente, Henrik Finsberg, Cecile Daversin-Catty, Ilsbeth Van Herck, Samuel Wall, Hermenegild Arevalo, Francisco Javier Saiz, Beatriz Trenor'
 ---
