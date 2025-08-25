@@ -1,11 +1,11 @@
 ---
-title: Impact of Segregation Scheme on Performance of a Strongly Coupled Electromechanical Solver
+title: Impact of Segregation Scheme on Performance of a Strongly Coupled Cardiac Electromechanical Solver
 collection: publications
 permalink: /publication/impact-of-segregation-scheme
 excerpt: 'Fully coupled cardiac electromechanics simulations have in the last few years become feasible on a tissue and organ scale'
 date: 2025-02-10
-venue: ''
-paperurl: 'https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=5128775'
+venue: 'Computer Methods in Applied Mechanics and Engineering'
+paperurl: 'https://www.sciencedirect.com/science/article/pii/S0045782525005420?dgcid=author'
 authors:': 'Lena Myklebust, Hermenegild Arevalo, Cécile Daversin-Catty, Samuel Wall, Henrik Finsberg'
 ---
 
