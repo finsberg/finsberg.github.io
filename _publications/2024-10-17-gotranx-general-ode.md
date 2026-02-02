@@ -1,5 +1,5 @@
 ---
-title: gotranx: General ODE translator
+title: 'gotranx: General ODE translator'
 collection: publications
 permalink: /publication/gotranx:-general-ode
 excerpt: 'We introduce gotranx, a General ODE Translator for automatic code generation of ordinary differential equations (ODEs).'

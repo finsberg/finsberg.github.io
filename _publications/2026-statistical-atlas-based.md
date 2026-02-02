@@ -3,7 +3,7 @@ title: Statistical Atlas-Based Surrogate Model of Biventricular Wall Mechanics
 collection: publications
 permalink: /publication/statistical-atlas-based
 excerpt: 'Here we use a statistical atlas of end-diastolic (ED) and end-systolic (ES) biventricular shapes- previously derived from the UK Biobank imaging substudy- to generate meshes for finite element (FE) simulations of ventricular wall mechanics'
-date: 2026
+date: 2026-01-07
 venue: ''
 paperurl: 'https://www.biorxiv.org/content/biorxiv/early/2026/01/09/2026.01.07.697811.full.pdf'
 authors:': 'Alejandra Robles, Raksha Konanur, Anna Qi, Henrik Finsberg, Joakim Sundnes, Andrew D McCulloch'
