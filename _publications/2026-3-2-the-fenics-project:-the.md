@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/the-fenics-project:-the
 excerpt: 'This open access book provides the reader with a snapshot of the cutting-edge research being undertaken by the members of the FEniCS community, as presented at the FEniCS Conference at Simula Research Laboratory, Oslo, Norway, in June 2024'
 date: 2026-3-2
-venue: ''
+venue: 'The FEniCS Project: The FEniCS 2024'
 paperurl: 'https://orbilu.uni.lu/bitstream/10993/67896/1/978-3-032-17396-6.pdf'
 authors:': 'Jørgen S Dokken, Henrik N Finsberg, Jack S Hale, Marie E Rognes, Matthew W Scroggs'
 ---

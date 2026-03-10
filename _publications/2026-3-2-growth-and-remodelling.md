@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/growth-and-remodelling
 excerpt: 'The heart is a dynamic organ that changes its size and shape to regulate its behaviour to the demands of the body, which can change, for example, through body growth, exercise, or the onset of disease'
 date: 2026-3-2
-venue: ''
+venue: 'The FEniCS Project: The FEniCS 2024'
 paperurl: 'https://orbilu.uni.lu/bitstream/10993/67896/1/978-3-032-17396-6.pdf#page=62'
 authors:': 'Karl Munthe, Henrik NT Finsberg, Samuel T Wall, Joakim Sundnes'
 ---
