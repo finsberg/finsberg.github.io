@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 ## PhD students
+* 2025 - Present: Habib Ur Rehmaan - Modelling the effects of CoA metabolism on the electrical activity of the heart
 * 2023 - Present: Ingvild Devold - Mechanochemical interplay underlying human performance: computational modeling of skeletal muscle signaling and mechanics in response to exercise
 * 2023 - Present: Karl Munthe - DynaComp
 * 2018 - 2022: Åshild Telle - Modeling cardiac mechanics on a microscale - Mechanical modeling and analysis of cardiomyocytes and cardiac micromuscles
