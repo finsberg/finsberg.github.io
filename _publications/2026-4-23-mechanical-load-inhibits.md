@@ -4,8 +4,8 @@ collection: publications
 permalink: /publication/mechanical-load-inhibits
 excerpt: 'The heart rarely develops cancer, and, at the same time, it lacks regenerative capacity, as cardiomyocytes stop proliferating after birth'
 date: 2026-4-23
-venue: ''
-paperurl: ''
+venue: 'Science'
+paperurl: 'https://www.science.org/doi/abs/10.1126/science.ads9412'
 authors: 'Giulio Ciucci, Daniela Lorizio, Nicoletta Bartoloni, Mauricio Budini, Andrea Colliva, Simone Vodret, Anh-Vu Nguyen, Lorenzo Ciacci, Bernhard Texler, Benno Cardini, Rupert Oberhuber, Sofia Bindelli, Ilaria Luciana Carlotta Del Giudice, Roman Vuerich, Francesco Riccitelli, Elena Zago, Henrik Nicolay Finsberg, Mattia Chiesa, Gianluca Lorenzo Perrucci, Rossana Bussani, Furio Silvestri, Manuel Maglione, Gaetano Ivan Dellino, Gianfranco Sinagra, Mauro Giacca, Thomas Eschenhagen, Paolo Golino, Giulio Pompilio, Pier Giuseppe Pelicci, Laura Andolfi, Maurizio Pinamonti, Matteo Dal Ferro, Samuel Wall, Francesco S Loffredo, Serena Zacchigna'
 ---
 
